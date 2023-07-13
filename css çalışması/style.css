@@ -1,0 +1,130 @@
+.navbar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    margin-left: 93px;
+    margin-right: 93px;
+    padding: 0px;
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(182, 177, 177);;
+    
+}
+a:hover{
+    transform: scale(1,1);
+    color: black;
+    display: flex;
+}
+.box{
+    background: rgb(184, 64, 64);
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+}
+.box h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size:300%;
+    color: white;
+
+}
+.box h6{
+    font-size:100%;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.searchbox{
+    background: rgb(184, 64, 64);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: white;
+    width: 800px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 70px;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+form input{
+   flex: 1;
+   border: none;
+   outline: none;
+   padding: 10px;
+}
+form button {
+    background-color: white;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: grey;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: rgb(97, 94, 94);
+    color: white;
+}
+.portfolio
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+}
+
+.card{
+    font-family:'Oswald', sans-serif;
+    height: 365px;
+    width: 335px;
+    background: white;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align:left;
+    float: left;
+}
+.card p{
+    margin-top: 8px;
+    font-size: 80%;
+    color: rgb(149, 143, 143);
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin-right: 100px;
+}
+.card h2{
+    font-size: 100%;
+    margin-left: 120px;
+}
+.card h4{
+    font-size:120%;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.card i{
+    font-size: 30px;
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
